@@ -14,14 +14,6 @@ void print_string(char *string) {
 //int is_lowercase(char c)；
 //int count_lowercase(char *string);
 
-
-
-/////////////////////////////////////////////////////////////////////////////
-
-
-
-////////////////////////////////////////////////////////////////////////////
-
 //Provided char functions
 
 // Returns : 1 if `c` is a lowercase letter
@@ -86,7 +78,7 @@ int count_lowercase(char *string) {
     int num_of_lowercase = 0;
     while (string[i] != '\0') {
         
-        num_of_lowercase = num_of_lowercase +                                           is_lowercase(string[i]);
+        num_of_lowercase = num_of_lowercase + is_lowercase(string[i]);
 
         i++;
     }
